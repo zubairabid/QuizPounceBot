@@ -21,7 +21,8 @@ async def pounce(ctx, *args, **kwargs):
     message = ' '.join([word for word in args])
     author = ctx.message.author
     print(args, kwargs)
-    await channel.send(str(message)+": pounce by " + str(author) + " of " +str([y.name.lower() for y in author.roles][1:]))
+    response = str(message)+" - <" + str(author) + " of " +str([y.name.lower() for y in author.roles][1:]) + ">" 
+    await channel.send(response)
 
 @bot.event
 async def on_command_error(ctx, error):
