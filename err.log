@@ -1,0 +1,6 @@
+Unhandled message: Command "wellthatfailed" is not found
+Unhandled message: Command "nowpls" is not found
+Unhandled message: Command raised an exception: NameError: name 'client' is not defined
+Unhandled message: Command raised an exception: NameError: name 'client' is not defined
+Unhandled message: Command raised an exception: TypeError: send() takes from 1 to 2 positional arguments but 3 were given
+Unhandled message: Command raised an exception: AttributeError: 'Member' object has no attribute 'role'
